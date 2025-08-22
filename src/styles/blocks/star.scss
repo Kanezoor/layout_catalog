@@ -1,6 +1,6 @@
 @use './variables.scss';
 
-.product-review {
+.card__product-review {
   display: flex;
   align-items: center;
   width: 166px;
@@ -12,7 +12,7 @@
   color: variables.$site-def-black;
   text-decoration: none;
 
-  .stars {
+  .card__stars {
     display: flex;
     flex-direction: row;
     width: 96px;
@@ -20,7 +20,7 @@
     border-radius: 0.5px;
     gap: 4px;
 
-    &__star {
+    &-star {
       width: 16px;
       height: 16px;
       background-image: url(../images/star.svg);
@@ -29,13 +29,13 @@
     }
 
     &--4 {
-      .stars__star:nth-child(-n + 4) {
+      .card__stars-star:nth-child(-n + 4) {
         background-image: url(../images/star-active.svg);
       }
     }
   }
 
-  &__link {
+  &-link {
     display: flex;
     font-family: variables.$site-font;
     width: 53px;
