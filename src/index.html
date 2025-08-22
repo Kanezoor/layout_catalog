@@ -1,3 +1,4 @@
+<!-- #region head -->
 <!doctype html>
 <html lang="en">
   <head>
@@ -17,11 +18,552 @@
     />
     <link
       rel="stylesheet"
-      href="styles/index.scss"
+      href="styles/index.css"
     />
   </head>
+  <!-- #endregion -->
 
   <body>
-    <h1>Catalog</h1>
+    <!-- #region header -->
+    <header class="header">
+      <a href="index.html">
+        <img
+          class="siteImage"
+          src="images/logo.png"
+          alt="Site logo"
+        />
+      </a>
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li class="nav_link">
+            <a
+              href="#Apple"
+              class="is-active"
+            >
+              Apple
+            </a>
+          </li>
+          <li class="nav_link">
+            <a href="#Samsung">Samsung</a>
+          </li>
+          <li class="nav_link">
+            <a href="#Smartphones">Smartphones</a>
+          </li>
+          <li class="nav_link">
+            <a
+              href="#Laptops&Computers"
+              data-qa="nav-hover"
+            >
+              Laptops & Computers
+            </a>
+          </li>
+          <li class="nav_link">
+            <a href="#Gadgets">Gadgets</a>
+          </li>
+          <li class="nav_link">
+            <a href="#Tablets">Tablets</a>
+          </li>
+          <li class="nav_link">
+            <a href="#Photo">Photo</a>
+          </li>
+          <li class="nav_link">
+            <a href="#Video">Video</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- #endregion -->
+
+    <!-- #region main -->
+    <main class="catalog">
+      <div
+        class="card"
+        data-qa="card"
+      >
+        <div class="product-picture">
+          <img
+            class="product-picture__apple"
+            src="./images/imac.jpeg"
+            alt="APPLE A1419"
+          />
+        </div>
+
+        <h2 class="product-name">
+          <a
+            href="#"
+            class="product-name__link"
+          >
+            APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
+          </a>
+        </h2>
+
+        <h3 class="product-code">
+          <a
+            href="#"
+            class="product-code__link"
+          >
+            Product code: 195434
+          </a>
+        </h3>
+
+        <div class="product-review">
+          <div class="stars stars--4">
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+          </div>
+
+          <a
+            href="#"
+            class="product-review__link"
+          >
+            Reviews: 5
+          </a>
+        </div>
+
+        <div class="price">
+          <span class="price-tag">Price:</span>
+          <div class="product-price">$2,199</div>
+        </div>
+
+        <a
+          href="#"
+          class="BUY"
+          data-qa="card-hover"
+        >
+          Buy
+        </a>
+      </div>
+
+      <div
+        class="card"
+        data-qa="card"
+      >
+        <div class="product-picture">
+          <img
+            class="product-picture__apple"
+            src="./images/imac.jpeg"
+            alt="APPLE A1419"
+          />
+        </div>
+
+        <h2 class="product-name">
+          <a
+            href="#"
+            class="product-name__link"
+          >
+            APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
+          </a>
+        </h2>
+
+        <h3 class="product-code">
+          <a
+            href="#"
+            class="product-code__link"
+          >
+            Product code: 195434
+          </a>
+        </h3>
+
+        <div class="product-review">
+          <div class="stars stars--4">
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+          </div>
+
+          <a
+            href="#"
+            class="product-review__link"
+          >
+            Reviews: 5
+          </a>
+        </div>
+
+        <div class="price">
+          <span class="price-tag">Price:</span>
+          <div class="product-price">$2,199</div>
+        </div>
+
+        <a
+          href="#"
+          class="BUY"
+          data-qa="card-hover"
+        >
+          Buy
+        </a>
+      </div>
+
+      <div
+        class="card"
+        data-qa="card"
+      >
+        <div class="product-picture">
+          <img
+            class="product-picture__apple"
+            src="./images/imac.jpeg"
+            alt="APPLE A1419"
+          />
+        </div>
+
+        <h2 class="product-name">
+          <a
+            href="#"
+            class="product-name__link"
+          >
+            APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
+          </a>
+        </h2>
+
+        <h3 class="product-code">
+          <a
+            href="#"
+            class="product-code__link"
+          >
+            Product code: 195434
+          </a>
+        </h3>
+
+        <div class="product-review">
+          <div class="stars stars--4">
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+          </div>
+
+          <a
+            href="#"
+            class="product-review__link"
+          >
+            Reviews: 5
+          </a>
+        </div>
+
+        <div class="price">
+          <span class="price-tag">Price:</span>
+          <div class="product-price">$2,199</div>
+        </div>
+
+        <a
+          href="#"
+          class="BUY"
+          data-qa="card-hover"
+        >
+          Buy
+        </a>
+      </div>
+
+      <div
+        class="card"
+        data-qa="card"
+      >
+        <div class="product-picture">
+          <img
+            class="product-picture__apple"
+            src="./images/imac.jpeg"
+            alt="APPLE A1419"
+          />
+        </div>
+
+        <h2 class="product-name">
+          <a
+            href="#"
+            class="product-name__link"
+          >
+            APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
+          </a>
+        </h2>
+
+        <h3 class="product-code">
+          <a
+            href="#"
+            class="product-code__link"
+          >
+            Product code: 195434
+          </a>
+        </h3>
+
+        <div class="product-review">
+          <div class="stars stars--4">
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+          </div>
+
+          <a
+            href="#"
+            class="product-review__link"
+          >
+            Reviews: 5
+          </a>
+        </div>
+
+        <div class="price">
+          <span class="price-tag">Price:</span>
+          <div class="product-price">$2,199</div>
+        </div>
+
+        <a
+          href="#"
+          class="BUY"
+          data-qa="card-hover"
+        >
+          Buy
+        </a>
+      </div>
+
+      <div
+        class="card"
+        data-qa="card"
+      >
+        <div class="product-picture">
+          <img
+            class="product-picture__apple"
+            src="./images/imac.jpeg"
+            alt="APPLE A1419"
+          />
+        </div>
+
+        <h2 class="product-name">
+          <a
+            href="#"
+            class="product-name__link"
+          >
+            APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
+          </a>
+        </h2>
+
+        <h3 class="product-code">
+          <a
+            href="#"
+            class="product-code__link"
+          >
+            Product code: 195434
+          </a>
+        </h3>
+
+        <div class="product-review">
+          <div class="stars stars--4">
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+          </div>
+
+          <a
+            href="#"
+            class="product-review__link"
+          >
+            Reviews: 5
+          </a>
+        </div>
+
+        <div class="price">
+          <span class="price-tag">Price:</span>
+          <div class="product-price">$2,199</div>
+        </div>
+
+        <a
+          href="#"
+          class="BUY"
+          data-qa="card-hover"
+        >
+          Buy
+        </a>
+      </div>
+
+      <div
+        class="card"
+        data-qa="card"
+      >
+        <div class="product-picture">
+          <img
+            class="product-picture__apple"
+            src="./images/imac.jpeg"
+            alt="APPLE A1419"
+          />
+        </div>
+
+        <h2 class="product-name">
+          <a
+            href="#"
+            class="product-name__link"
+          >
+            APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
+          </a>
+        </h2>
+
+        <h3 class="product-code">
+          <a
+            href="#"
+            class="product-code__link"
+          >
+            Product code: 195434
+          </a>
+        </h3>
+
+        <div class="product-review">
+          <div class="stars stars--4">
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+          </div>
+
+          <a
+            href="#"
+            class="product-review__link"
+          >
+            Reviews: 5
+          </a>
+        </div>
+
+        <div class="price">
+          <span class="price-tag">Price:</span>
+          <div class="product-price">$2,199</div>
+        </div>
+
+        <a
+          href="#"
+          class="BUY"
+          data-qa="card-hover"
+        >
+          Buy
+        </a>
+      </div>
+
+      <div
+        class="card"
+        data-qa="card"
+      >
+        <div class="product-picture">
+          <img
+            class="product-picture__apple"
+            src="./images/imac.jpeg"
+            alt="APPLE A1419"
+          />
+        </div>
+
+        <h2 class="product-name">
+          <a
+            href="#"
+            class="product-name__link"
+          >
+            APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
+          </a>
+        </h2>
+
+        <h3 class="product-code">
+          <a
+            href="#"
+            class="product-code__link"
+          >
+            Product code: 195434
+          </a>
+        </h3>
+
+        <div class="product-review">
+          <div class="stars stars--4">
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+          </div>
+
+          <a
+            href="#"
+            class="product-review__link"
+          >
+            Reviews: 5
+          </a>
+        </div>
+
+        <div class="price">
+          <span class="price-tag">Price:</span>
+          <div class="product-price">$2,199</div>
+        </div>
+
+        <a
+          href="#"
+          class="BUY"
+          data-qa="card-hover"
+        >
+          Buy
+        </a>
+      </div>
+
+      <div
+        class="card"
+        data-qa="card"
+      >
+        <div class="product-picture">
+          <img
+            class="product-picture__apple"
+            src="./images/imac.jpeg"
+            alt="APPLE A1419"
+          />
+        </div>
+
+        <h2 class="product-name">
+          <a
+            href="#"
+            class="product-name__link"
+          >
+            APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
+          </a>
+        </h2>
+
+        <h3 class="product-code">
+          <a
+            href="#"
+            class="product-code__link"
+          >
+            Product code: 195434
+          </a>
+        </h3>
+
+        <div class="product-review">
+          <div class="stars stars--4">
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+            <div class="stars__star"></div>
+          </div>
+
+          <a
+            href="#"
+            class="product-review__link"
+          >
+            Reviews: 5
+          </a>
+        </div>
+
+        <div class="price">
+          <span class="price-tag">Price:</span>
+          <div class="product-price">$2,199</div>
+        </div>
+
+        <a
+          href="#"
+          class="BUY"
+          data-qa="card-hover"
+        >
+          Buy
+        </a>
+      </div>
+    </main>
+    <!-- #endregion -->
   </body>
 </html>
