@@ -19,9 +19,10 @@
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
+  transition: background-color variables.$site-def-trans-value, color variables.$site-def-trans-value;
 
   &:hover {
-    background-color: #fff;
     color: variables.$site-color;
+    background-color: #fff;
   }
 }

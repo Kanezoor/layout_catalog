@@ -18,7 +18,7 @@
   }
 }
 
-.product-picture {
+.card__picture {
   margin-top: 32px;
   margin-left: 19px;
   margin-right: 19px;
@@ -33,7 +33,7 @@
   }
 }
 
-.product-name {
+.card__title {
   margin: 0;
   margin-top: 40px;
   margin-left: variables.$side-margin;
@@ -46,9 +46,9 @@
   color: variables.$site-def-black;
   width: 166px;
   height: 36px;
-  transition: color 300ms;
+  transition: color variables.$site-def-trans-value;
 
-  &__link {
+  &-link {
     text-decoration: none;
     color: variables.$site-def-black;
 
@@ -58,7 +58,7 @@
   }
 }
 
-.product-code {
+.card__code {
   font-family: variables.$site-font;
   font-weight: 400;
   font-size: 10px;
@@ -71,7 +71,7 @@
   margin-left: 16px;
   margin-bottom: 0;
 
-  &__link {
+  &card__code-link {
     text-decoration: none;
     color: variables.$site-def-grey;
   }
